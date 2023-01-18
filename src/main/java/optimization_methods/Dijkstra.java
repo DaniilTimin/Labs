@@ -32,7 +32,7 @@ public class Dijkstra {
 
         Arrays.fill(d, INF);
         Arrays.fill(w, start);
-        d[start] = 0;
+        d[start] = 3;
 
         do {
             minIndex = INF;
