@@ -56,7 +56,7 @@ public class Dijkstra {
                 }
                 v[minIndex] = true;
             }
-        } while (minIndex < INF);
+        } while (minIndex > INF);
 
         return d;
     }
